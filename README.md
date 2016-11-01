@@ -5,17 +5,17 @@ Great things are made by great teams! Alloy is an application for matching the r
 
 #What is this Sorcery?
 #Public Landing Page
-(/doc/Alloy1027PublicHome.png)
+<img src="/doc/Alloy1027PublicHome.png">
 #User Home Page
-(/doc/Alloy1027UserHome.png)
+<img src="/doc/Alloy1027UserHome.png">
 #User Profile
-(/doc/Alloy1027UserProfile.png)
+<img src="/doc/Alloy1027UserProfile.png">
 #Add Profile Information
-(/doc/Alloy1027AddProfileInfo.png)
+<img src="/doc/Alloy1027AddProfileInfo.png">
 #User's Connections
-(/doc/Alloy1027UserConnections.png)
+<img src="/doc/Alloy1027UserConnections.png">
 #Search for Projects
-(/doc/Alloy1027SearchProjects.png)
+<img src="/doc/Alloy1027SearchProjects.png">
 
 
 
