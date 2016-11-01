@@ -6,8 +6,6 @@ Teams with diverse skills create stronger results, but finding talented people w
 
 Let Alloy help you find a team with the right chemistry.
 
-![landing page](/doc/landing-page.png)
-
 ## Key Features
 * Create profiles that list your skills, interests and availability (TODO)
 * Create projects that other people can browse and join (TODO)
@@ -17,17 +15,17 @@ Let Alloy help you find a team with the right chemistry.
 
 # Screenshots
 ## Public Landing Page
-<img src="/doc/landing-page.png">
+![landing page](/doc/landing-page.png)
 ## User Home Page
-<img src="/doc/Alloy1027UserHome.png">
+![user home page](/doc/Alloy1027UserHome.png)
 ## User Profile
-<img src="/doc/Alloy1027UserProfile.png">
+![user profile](/doc/Alloy1027UserProfile.png)
 ## Add Profile Information
-<img src="/doc/Alloy1027AddProfileInfo.png">
+![edit profile](/doc/Alloy1027AddProfileInfo.png)
 ## User's Connections
-<img src="/doc/Alloy1027UserConnections.png">
+![user connections](/doc/Alloy1027UserConnections.png)
 ## Search for Projects
-<img src="/doc/Alloy1027SearchProjects.png">
+![search](/doc/Alloy1027SearchProjects.png)
 
 
 
