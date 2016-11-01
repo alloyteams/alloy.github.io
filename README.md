@@ -5,7 +5,7 @@ Great things are made by great teams! Alloy is an application for matching the r
 Teams with diverse skills create stronger results, but finding talented people with the right skills isn't always so easy. Alloy makes building your dream team easier by bringing people together around projects based on their skills. guitarist looking to jam with a drummer? Web developer looking to collaborate with a designer? Filmmaker looking for a 3D artist?
 
 Let Alloy help you find a team with the right chemistry.
-![landing page](/doc/landing-page.png)
+
 
 ## Key Features
 * Create profiles that list your skills, interests and availability (TODO)
