@@ -7,18 +7,25 @@ Teams with diverse skills create stronger results, but finding talented people w
 Let Alloy help you find a team with the right chemistry.
 ![landing page](/doc/landing-page.png)
 
-#What is this Sorcery?
-#Public Landing Page
+## Key Features
+* Create profiles that list your skills, interests and availability (TODO)
+* Create projects that other people can browse and join (TODO)
+* Search for people based on skills (TODO)
+* Follow people you want to work with to track their projects (TODO)
+* Set up alerts for projects that might interest you (TODO)
+
+# Screenshots
+## Public Landing Page
 <img src="/doc/landing-page.png">
-#User Home Page
+## User Home Page
 <img src="/doc/Alloy1027UserHome.png">
-#User Profile
+## User Profile
 <img src="/doc/Alloy1027UserProfile.png">
-#Add Profile Information
+## Add Profile Information
 <img src="/doc/Alloy1027AddProfileInfo.png">
-#User's Connections
+## User's Connections
 <img src="/doc/Alloy1027UserConnections.png">
-#Search for Projects
+## Search for Projects
 <img src="/doc/Alloy1027SearchProjects.png">
 
 
