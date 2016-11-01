@@ -6,6 +6,7 @@ Teams with diverse skills create stronger results, but finding talented people w
 
 Let Alloy help you find a team with the right chemistry.
 
+![landing page](/doc/landing-page.png)
 
 ## Key Features
 * Create profiles that list your skills, interests and availability (TODO)
