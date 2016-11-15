@@ -15,17 +15,11 @@ Let Alloy help you find a team with the right chemistry.
 
 # Screenshots
 ## Public Landing Page
-![landing page](/doc/landing-page.png)
-## User Home Page
-![user home page](/doc/Alloy1027UserHome.png)
-## User Profile
-![user profile](/doc/Alloy1027UserProfile.png)
-## Add Profile Information
-![edit profile](/doc/Alloy1027AddProfileInfo.png)
-## User's Connections
-![user connections](/doc/Alloy1027UserConnections.png)
-## Search for Projects
-![search](/doc/Alloy1027SearchProjects.png)
+![landing page](/doc/AlloyM1Homepage.png)
+## Add Project
+![user home page](/doc/AlloyM1AddProject.png)
+## Edit Project
+![user profile](/doc/AlloyM1EditProject.png)
 
 
 
