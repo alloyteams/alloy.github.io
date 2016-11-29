@@ -20,7 +20,8 @@ Alloy is a work in progress, but you can view the current version of the site [h
 #User Guide
 ##Landing Page
 When you first log in, you'll notice that there are several projects featured / suggested to you. Our basic suggestion system is not yet hooked up, but will be ready very soon.
-[](/doc/landing-page.png)
+
+![](/doc/landing-page.png)
 
 ##My Profile
 On your generated profile page, there are several menu tabs in the top left. Each tab shows different content that are currently just placeholders.
@@ -75,7 +76,7 @@ To get an idea of the project structure, it is helpful to note that Alloy is bas
 
 #Screenshots
 ##Public Landing Page
-![landing page](/doc/AlloyM1Homepage.png)
+![landing page](/doc/landing-page.png)
 ##Add Project
 ![user home page](/doc/AlloyM1AddProject.png)
 ##Edit Project
