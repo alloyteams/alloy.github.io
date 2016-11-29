@@ -69,14 +69,16 @@
 
 <p>If you click the associated orange button, you will see a message confirming that you are already a part of the project. Clicking the blue button takes you to the project's home page.</p>
 
-<p>Scrolling down further on the MyProfile page takes you to another table containing a single project called "joinableNullProject." Clicking the orange button here sends a request to admins of the project that you would like to join. Clicking the blue button to get to the joinableNullProject's home page, you will see your request near the bottom of the page. This list will later be private to non-admins of the project, but for now, to get a feel for how the functionality will work, you can click the yellow button to add yourself and other users to the project. Navigate back to "TheNullProject" home page through the blue button back on the MyProfile page…</p>
+<p>Scrolling down further on the MyProfile page takes you to another table containing a single project called "joinableNullProject." Clicking the orange button here sends a request to admins of the project that you would like to join. Clicking the blue button to get to the joinableNullProject's home page, you will see your request near the bottom of the page. This list will later be private to non-admins of the project, but for now, to get a feel for how the functionality will work, you can click the yellow button to add yourself and other users to the project.</p>
+
+<p>Navigate back to "TheNullProject" home page through the blue button back on the MyProfile page…</p>
 
 <h2>
 <a id="project-page" class="anchor" href="#project-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Page</h2>
 
 <p>Here on the project profile page, we can see information about the project and, because we are all admins, we can edit this project's profile by clicking the "edit project info" button on the left.</p>
 
-<p>Here we can edit the presented fields and saved changes will be reflected in the project's profile page. Note that in the skills wanted section, skills can be multiple words and each skills is separated by commas (rather than hitting 'enter' after typing each skill).</p>
+<p>Here we can edit the presented fields and saved changes will be reflected in the project's profile page. Warning, for now, changing the name messes with how Alloy associates users with the projects they are a part of, so avoid changing this for now. Note that in the skills wanted section, skills can be multiple words and each skills is separated by commas (rather than hitting 'enter' after typing each skill).</p>
 
 <h2>
 <a id="create-project" class="anchor" href="#create-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create Project</h2>
@@ -86,10 +88,26 @@
 <h2>
 <a id="search" class="anchor" href="#search" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Search</h2>
 
-<p>This page can be accessed from the header menu bar. This page can be used to search for projects and users based on skills wanted and skills available, respectively. Currently, the search terms must be exact word matches and the search results must be cleared each time with the "clear" button. </p>
+<p>This page can be accessed from the header menu bar. This page can be used to search for projects and users based on skills wanted and skills available, respectively. Currently, the search terms must be exact word matches and the search results must be cleared each time with the "clear" button.       </p>
 
 <h1>
-<a id="developer-guide" class="anchor" href="#developer-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developer Guide</h1>
+<a id="developers-guide" class="anchor" href="#developers-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developers Guide</h1>
+
+<ol>
+<li>To begin working on Alloy, meteor must be installed on your machine.</li>
+<li>Create a directory to hold the project</li>
+<li>git clone the project to your machine with
+git clone <a href="https://github.com/alloyteams/alloy.git">https://github.com/alloyteams/alloy.git</a>
+</li>
+<li>From this directory, run
+meteor npm install
+meteor —settings ../config/settings.development.json</li>
+<li>Test that Alloy is running on localhost:3000 from any browser</li>
+</ol>
+
+<p>You can then you the editor of your choice to begin modifying Alloy's files. Note that Alloy uses the coding style preferences described <a href="http://courses.ics.hawaii.edu/ics314f16/morea/development-environments/ics-se-code-style.xml">this</a> xml file.</p>
+
+<p>To get an idea of the project structure, it is helpful to note that Alloy is based on the meteor-application-template available <a href="https://ics-software-engineering.github.io/meteor-application-template/">here</a>  </p>
 
 <h1>
 <a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Screenshots</h1>
