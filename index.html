@@ -20,25 +20,25 @@
     <header>
       <div class="inner">
         <h1>Alloy</h1>
-        <h2>Alloy brings dream teams together at UH! Alloy is an application for matching the right people to the right projects. </h2>
-        <a href="https://github.com/alloyteams" class="button"><small>Follow us on</small> GitHub</a>
+        <h2>Great things are made by great teams! Alloy is an application for matching the right people to the right projects. </h2>
+        <a href="https://github.com/alloyteams" class="button"><small>Follow me on</small> GitHub</a>
       </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <p><img src="/doc/logged-out-home.png" alt=""></p>
           <h2>
 <a id="about-alloy" class="anchor" href="#about-alloy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Alloy</h2>
 
 <p>Alloy is a UH student-built tool to help members of the UH iLab and sPACE communities find projects and find people for projects of their own. Have an idea for a project that would look good on your resume? Want to do your own custom senior project? Or do you just want experiment and learn something new with other students who just want to do the same?</p>
 
-<p>Alloy uses skills to match users and projects, and uses a "skill graph" to power a recommendation engine that surfaces relevant content, even if the keywords don't match perfectly. For people who want to make teams, the recommendation engine makes sure that your project gets seen by the right people without even having to search or make invites...potential collaborators are even shown featured projects before they've logged in! For people looking for projects, the recommendations show up on their home pages, so they don't have to constantly use the search function to browse interesting, relevant projects! All this means that Alloy puts team-building front-and-center, and as frictionless as possible.</p>
-          
 <p>Let Alloy help you find a team that's right for what you want.</p>
-          
-<p>So, what are you waiting for? <a href="http://alloytestdeployrv.meteorapp.com/">Try Alloy now!</a></p>
+
+<h3>
+<a id="you-can-view-the-current-version-of-alloy-here" class="anchor" href="#you-can-view-the-current-version-of-alloy-here" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You can view the current version of Alloy <a href="http://alloytestdeployrv.meteorapp.com/">here</a>.</h3>
+
+<p><img src="/doc/project-join-request2-final.png" alt=""></p>
 
 <h2>
 <a id="key-features" class="anchor" href="#key-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Key Features</h2>
@@ -57,7 +57,9 @@
 <h2>
 <a id="landing-page" class="anchor" href="#landing-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Landing Page</h2>
 
-<p>Logged out users are greeted with information about Alloy and a list of featured projects they can use to get an idea of what interesting things the community is working on. You can log in by selecting the "login" link on the right side of the menu bar. (Seen at top of page)</p>
+<p>Logged out users are greeted with information about Alloy and a list of featured projects they can use to get an idea of what interesting things the community is working on. You can log in by selecting the "login" link on the right side of the menu bar.</p>
+
+<p><img src="/doc/logged-out-home.png" alt=""></p>
 
 <h2>
 <a id="home-page" class="anchor" href="#home-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Home Page</h2>
@@ -164,7 +166,7 @@ meteor —settings ../config/settings.development.json
 <li>Tyrin Besas</li>
 <li>Blake Larsen</li>
 <li>Traven Watase</li>
-<li>Jesus Gonzales</li>
+<li>User 5</li>
 </ul>
 
 <p>We received the following feedback:</p>
@@ -178,6 +180,8 @@ meteor —settings ../config/settings.development.json
 <li>UH CAS login is a nice feature</li>
 <li>Each field of "About Me", "Skills", and "Projects" should be individually editable by clicking on them (like modern sites) via a cursor change</li>
 <li>Be able to upload and profile pictures</li>
+<li>Entire cards should be clickable </li>
+<li>Remove menubar when logged out</li>
 </ul>
 </li>
 <li>Projects
@@ -187,12 +191,16 @@ meteor —settings ../config/settings.development.json
 <li>Need some sort of feedback to user to confirm when a request has been successfully sent</li>
 <li>Would be nice to have a notification icon in the header so the user can easily see when they have notifications</li>
 <li>Would be nice to have a timeline, such as when a project ends and projected milestones</li>
+<li>Create notifications for join requests</li>
+<li>When inviting someone to join a project, label the field as "username" rather than "new member" so it's clear that the username must be entered</li>
 </ul>
 </li>
 <li>User Profiles
 
 <ul>
 <li>When user updates profile and clicks save, something pops up, but goes too fast to see</li>
+<li>Users should be able to specify interests in addition to their skills </li>
+<li>Email links do not have a route</li>
 </ul>
 </li>
 <li>Search
@@ -201,6 +209,8 @@ meteor —settings ../config/settings.development.json
 <li>It should be clear to the user that they are not searching for projects or users by name, but rather are searching by the listed skills</li>
 <li>User shouldn't have to press "clear" to see new search results with a new query</li>
 <li>Would be useful to search for the name of a specific project or user</li>
+<li>Click on a specific skill tag to see all projects/users with that skill</li>
+<li>Don't use buttons to select between user and project searches</li>
 </ul>
 </li>
 </ul>
