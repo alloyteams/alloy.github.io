@@ -1,59 +1,60 @@
 ##About Alloy
-Alloy is a UH student-built tool to help members of the UH iLab and sPACE communities find projects and find people for projects of their own. Have an idea for a project that would look good on your resume? Want to do your own custom senior project? Or do you just want experiment and learn something new with other students who just want to do the same?
+
+Alloy is a tool built by students at the University of Hawaii to help members of the UH iLab and sPACE communities with posting and finding projects to work on, and finding people to work with. Have an idea for a project that would look good on your resume? Want to do your own custom senior project? Or do you just want experiment and learn something new with other students who just want to do the same?
 
 Let Alloy help you find a team that's right for what you want.
 
+<form action="http://alloytestdeployrv.meteorapp.com/">
+  <input type="submit" value="Try Alloy Now" / >
+</form>
+
 ##Key Features
-* Create profiles that list your skills, interests and availability (TODO)
-* Create projects that other people can browse and join (TODO)
-* Search for people based on skills (TODO)
-* Follow people you want to work with to track their projects (TODO)
-* Set up alerts for projects that might interest you (TODO)
-
-Alloy is a work in progress, but you can view the current version of the site [here](http://alloytestdeployrv.meteorapp.com/).
-
-[Milestone 1](https://github.com/alloyteams/alloy/projects/1)
-
-[Milestone 2](https://github.com/alloyteams/alloy/projects/2)
+* Create profiles that list your skills
+* Create projects that other people can browse and join
+* Secure login via the UH authentication system
+* Algorithm suggests relevant projects
+* Search for people and projects based on skills
 
 
 #User Guide
-##Landing Page
-When you first log in, you'll notice that there are several projects featured / suggested to you. Our basic suggestion system is not yet hooked up, but will be ready very soon.
 
-![](/doc/landing-page.png)
+##Landing Page
+Logged out users are greeted with information about Alloy and a list of featured projects they can use to get an idea of what interesting things the community is working on. You can log in by selecting the "login" link on the right side of the menu bar.
+
+![](/doc/logged-out-home.png)
+
+##Home Page
+When you're logged in, the home page will populate the top menu with your options and switch to displaying suggested projects, which are populated based on the skills you list in the user profile. This is also where you'll see alerts for relevant activity on the site, such as requests to join your project!
+
+![](/doc/logged-in-home.png)
 
 ##My Profile
-On your generated profile page, there are several menu tabs in the top left. Each tab shows different content that are currently just placeholders.
+Your profile page is where you can write your bio, show off the projects you're working on, and list your skills! You should make sure to edit your skills via the edit button to make being found and finding projects easier!
 
-![](/doc/myprofile-page.png)
-
-Scrolling down your profile page, you'll find an unformatted table of dynamically loaded content specific to your profile. You'll notice that you are already a part of a project called "The Null Project." This is a project that all users are automatically entered in and is currently used for debugging purposes.
-
-![](/doc/myprofile-page-table.png)
-
-If you click the associated orange button, you will see a message confirming that you are already a part of the project. Clicking the blue button takes you to the project's home page.
-
-Scrolling down further on the MyProfile page takes you to another table containing a single project called "joinableNullProject." Clicking the orange button here sends a request to admins of the project that you would like to join. Clicking the blue button to get to the joinableNullProject's home page, you will see your request near the bottom of the page. This list will later be private to non-admins of the project, but for now, to get a feel for how the functionality will work, you can click the yellow button to add yourself and other users to the project.
-
-![](/doc/project-request.png)
-
-Navigate back to "TheNullProject" home page through the blue button back on the MyProfile page…
-
-##Project Page
-Here on the project profile page, we can see information about the project and, because we are all admins, we can edit this project's profile by clicking the "edit project info" button on the left.
-
-Here we can edit the presented fields and saved changes will be reflected in the project's profile page. Warning, for now, changing the name messes with how Alloy associates users with the projects they are a part of, so avoid changing this for now. Note that in the skills wanted section, skills can be multiple words and each skills is separated by commas (rather than hitting 'enter' after typing each skill).
-
-![](/doc/project-edit.png)
+![](/doc/user-profile-final.png)
 
 ##Create Project
-This page can be accessed from the header menu bar. It is similar to the "edit project info" functionality, except here we can create new projects rather than edit existing info. Note that although the "Skills Wanted" section provides a list of suggested skills, like in the "edit project info" page, you can enter any phrase that does not contain a comma. Any new skills and phrases you enter will be saved and possibly suggested in the "Skills Wanted" dropdown menu the next time a user creates a project.
+You can create a project by clicking "Create Project" in the menu bar, and filling out the form. The skills are very important, since that's what users will search for, and how your projects will get suggested to other users!
+
+![](/doc/create-project.png)
+
+##Project Page
+The project page changes based on your relationship to it, and you can see your options below the project image. For example, if you're logged out, you can only see the title, bio, and featured image, along with a prompt to log in.
+
+![](/doc/logged-out-project.png)
+
+If you're logged in, but aren't a member of the project, you can make a request to join via the button that appears below the featured image.
+
+![](/doc/project-join-request2-final.png)
+
+If you own the project, you get the options to edit the project info, manage members, leave the project, and approve/deny join requests.
+
+![](/doc/profject-profile-final.png)
 
 ##Search
-This page can be accessed from the header menu bar. This page can be used to search for projects and users based on skills wanted and skills available, respectively. Currently, the search terms must be exact word matches and the search results must be cleared each time with the "clear" button. 
+When you click to the search page, you'll find the option to search for projects or users. Click one of those two buttons, and then type a skill into the search box, or use the dropdown to browse what skills have been added by users!
 
-![](/doc/search-projects.png)      
+![](/doc/search-final.png)      
 
 
 #Developers Guide
@@ -73,15 +74,3 @@ meteor —settings ../config/settings.development.json
 You can then use the editor of your choice to begin modifying Alloy's files. Note that Alloy uses the coding style preferences described [this](http://courses.ics.hawaii.edu/ics314f16/morea/development-environments/ics-se-code-style.xml) xml file.
 
 To get an idea of the project structure, it is helpful to note that Alloy is based on the meteor-application-template available [here](https://ics-software-engineering.github.io/meteor-application-template/)  
-
-#Screenshots
-##Public Landing Page
-![landing page](/doc/landing-page.png)
-##Add Project
-![user home page](/doc/AlloyM1AddProject.png)
-##Edit Project
-![user profile](/doc/AlloyM1EditProject.png)
-
-
-
-
